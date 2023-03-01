@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
-*function  that prints every character in s string,
-*starting with the first character 
-*/
+ * puts2 - prints every other character from first
+ * @str: the string
+ */
 void puts2(char *str)
 {
-  int x = 0;
+	int k = 0, len = strlen(str);
 
-  while(str[x] == str[1])
- {
-      _putchar(str[x]);
-      x++;
- }
+	while (k < len)
+	{
+		_putchar(str[k]);
+		k += 2;
+	}
+	_putchar('\n');
 }
