@@ -9,7 +9,8 @@ void puts2(char *str)
 {
   int x = 0;
 
-  while(str[x] = str[1]{
+  while(str[x] = str[1])
+ {
       _putchar(str[x]);
       x++;
 }
